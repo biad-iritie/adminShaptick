@@ -1,0 +1,68 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header" data-background-color="red">
+                        <h4 class="title">Creer un evenement</h4>
+                        <p class="category">Veuillez entrer les informations relatives à votre évenement</p>
+                    </div>
+                    <div class="card-content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group form-black label-floating is-empty">
+                                        <label class="control-label">Titre de l'évenement</label>
+                                        <input type="text"  class="form-control" >
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                     <div class="form-group">
+                                            <!-- <label>Description de l'evenement</label> -->
+                                        <div class="form-group form-black label-floating is-empty">
+                                            <label class="control-label"> Decrivez votre evenement ici</label>
+                                            <textarea class="form-control" rows="5"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group form-black label-floating is-empty">
+                                        <label class="control-label">Date De Debut</label>
+                                        <input type="text" class="form-control" >
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group form-black label-floating is-empty">
+                                        <label class="control-label">Heure De Debut</label>
+                                        <input type="email" class="form-control" >
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group form-black label-floating is-empty">
+                                        <label class="control-label">Date De Fin</label>
+                                        <input type="text" class="form-control" >
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group form-black label-floating is-empty">
+                                        <label class="control-label">Heure De Fin</label>
+                                        <input type="email" class="form-control" >
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-12">
+                                    <div class="btn btn-primary btn-sm float-left">
+                                        <span>Choisissez votre image</span>
+                                        <input type="file">
+                                    </div>
+                            </div>
+                            <button type="submit" (click)="valider(user)" class="btn btn-danger pull-right">Valider l'évenement</button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    </div>

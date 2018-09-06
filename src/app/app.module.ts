@@ -27,4 +27,9 @@ import { EventComponent  } from './evenements/event.component';
     HttpModule,
     ComponentsModule,
 RouterModule,
-    AppRoutingModu
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
